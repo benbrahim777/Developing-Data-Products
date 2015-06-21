@@ -1,0 +1,56 @@
+Simple Dataset Viewer
+========================================================
+author: Samuel sam
+date: 2015
+
+Why Dataset Viewer ???
+========================================================
+Many persons spend times to find out information in some datasets. by using this web application, every one can quickly have a look to datasets.
+Another potential use of this web application is sorting and searching elements in datasets.
+
+
+Data
+========================================================
+The data was included in R datasets (with the library MASS) and presented into a useful format using R and  px packages.
+
+```{r, echo = FALSE}
+library(ggplot2)
+library(pxR)
+library(MASS)
+```
+
+Animals heading rows:
+```{r}
+head(Animals)
+```
+
+EuStockMarkets heading rows:
+```{r}
+head(EuStockMarkets)
+```
+
+CO2 heading rows:
+```{r}
+head(CO2)
+```
+
+
+
+Using the App
+========================================================
+ 
+- For Animals dataset, we can filter (in the left pane) columns to show their contents. 
+             
+- We can sort all dataset (Animals, EuStockMarkets and CO2) by selecting the sorting arrows.
+
+- We can display different number of rows per page.    
+
+
+About
+========================================================
+
+This web application is part of the Coursera's class on Developing Data Products. 
+
+It uses data available in R Mass library.
+
+It is a R application hosted by shiny apps at https://benbrahim777.shinyapps.io/peerProject
