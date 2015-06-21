@@ -13,16 +13,23 @@ Data
 ========================================================
 The data was included in R datasets (with the library MASS) and presented into a useful format using R and  px packages.
 
-```{r, echo = FALSE}
-library(ggplot2)
-library(pxR)
-library(MASS)
-```
+
 
 Example of dataset content (EuStockMarkets heading rows):
 
-```{r}
+
+```r
 head(EuStockMarkets)
+```
+
+```
+         DAX    SMI    CAC   FTSE
+[1,] 1628.75 1678.1 1772.8 2443.6
+[2,] 1613.63 1688.5 1750.5 2460.2
+[3,] 1606.51 1678.6 1718.0 2448.2
+[4,] 1621.04 1684.1 1708.1 2470.4
+[5,] 1618.16 1686.6 1723.1 2484.7
+[6,] 1610.61 1671.6 1714.3 2466.8
 ```
 
 
